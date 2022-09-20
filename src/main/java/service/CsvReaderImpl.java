@@ -43,7 +43,6 @@ public class CsvReaderImpl implements CsvReader{
                     }
                 });
             }
-            System.out.println("Finish");
         } catch (FileNotFoundException e) {
             log.error("Data file not found", e);
         } catch (IOException e) {
